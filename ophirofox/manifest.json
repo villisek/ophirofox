@@ -194,6 +194,18 @@
     },
     {
       "matches": [
+        "https://www.lyonne.fr/*"
+      ],
+      "js": [
+        "content_scripts/config.js",
+        "content_scripts/lyonne-republicaine.js"
+      ],
+      "css": [
+        "content_scripts/lyonne-republicaine.css"
+      ]
+    },
+    {
+      "matches": [
         "https://www.humanite.fr/*"
       ],
       "js": [
